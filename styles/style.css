@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "OpenS";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
+  font-family: "OpenS";
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  font-family: "OpenS";
 }
 
 header {
@@ -9,8 +20,9 @@ header {
 }
 
 .header-head {
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 36px;
   background-color: #F8F8F8;
 }
@@ -19,6 +31,7 @@ header {
   width: 1100px;
   height: 20px;
   display: flex;
+  align-items: center;
 }
 
 .head--box-city {
@@ -27,10 +40,46 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  p{
-  	font-size: 12;
-  	font-family:'OpenSans';
-  }
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 100px;
+}
+
+.head--box-nav {
+  width: 352px;
+  height: 12px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.head--box-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 12px;
+}
+.head--box-nav ul img {
+  position: relative;
+  top: 1px;
+}
+.head--box-nav ul a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head--box-nav ul li:nth-child(2) {
+  width: 98px;
+}
+.head--box-nav ul li:nth-child(3) {
+  width: 146px;
+}
+
+.head--box-number {
+  font-size: 12px;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
