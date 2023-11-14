@@ -152,6 +152,10 @@ header {
   padding: 12px 16px;
   justify-content: space-between;
 }
+.body--box-nav ul li, .body--box-nav2 ul li {
+  transition: 0.2s;
+  cursor: pointer;
+}
 .body--box-nav ul li:nth-child(1), .body--box-nav2 ul li:nth-child(1) {
   width: 182px;
 }

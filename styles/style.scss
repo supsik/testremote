@@ -154,7 +154,10 @@ header{
 				justify-content: space-between;
 			}
 		}
-
+		li{
+			transition:.2s;
+			cursor: pointer;
+		}
 		li:nth-child(1){
 			width: 182px;
 		}
